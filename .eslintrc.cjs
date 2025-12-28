@@ -20,12 +20,8 @@ module.exports = {
       version: '18.2',
     },
   },
-  plugins: ['react-refresh'],
+  plugins: [], // پلاگین react-refresh حذف شد
   rules: {
-    // ⚡️ غیرفعال کردن PropTypes هشدار
-    'react/prop-types': 'off',
-
-    // ⚡️ غیرفعال کردن Fast Refresh هشدار
-    // 'react-refresh/only-export-components': 'off',
+    'react/prop-types': 'off', // PropTypes هشدار غیرفعال شد
   },
 };
