@@ -26,6 +26,6 @@ module.exports = {
     'react/prop-types': 'off',
 
     // ⚡️ غیرفعال کردن Fast Refresh هشدار
-    'react-refresh/only-export-components': 'off',
+    // 'react-refresh/only-export-components': 'off',
   },
 };
